@@ -1,0 +1,60 @@
+@media (max-width: 575px) {
+  .hero div span:first-of-type ,
+  .hero div span:last-of-type {
+    font-size: 0.8rem !important;
+  }
+  .hero div span:nth-of-type(2) {
+    font-size: 2rem !important;
+  }
+}
+
+
+@media (min-width: 576px) and (orientation: portrait) {
+  .swiper-wrapper {
+    top: 15%;
+  }
+  .view-behance {
+    bottom: 10%
+  }
+}
+
+@media (max-width: 1023px) {
+  .hero {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .hero div {
+    width: 90% !important;
+    
+  }
+}
+
+
+
+.img {
+  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
