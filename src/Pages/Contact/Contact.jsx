@@ -60,18 +60,10 @@ const Contact = () => {
             id="Textarea2"
             style={{ height: "150px" }}
           ></textarea>
-          <button className="emailBtn w-25 align-self-center">
+          <button className="emailBtn align-self-center">
             Send Email
           </button>
         </form>
-
-        {/* <div className="mb-4 w-75">
-          
-        </div>
-
-        <div className="mb-4 w-75">
-          
-        </div> */}
       </div>
       <div className="work-footer d-flex position-relative justify-content-end align-items-center">
         <Link to="/portfolio">
