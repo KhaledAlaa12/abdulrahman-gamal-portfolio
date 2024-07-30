@@ -23,6 +23,9 @@
     flex-direction: column;
     justify-content: space-around;
   }
+  .img-container {
+    justify-content: center !important;
+  }
   .hero div {
     width: 90% !important;
     

@@ -1,42 +1,12 @@
 body {
   /* background-color: #051118; */
   /* height: 100vh; */
-  overflow: hidden;
   color: white;
 }
 
 :root {
   --slide-color: white;
 }
-
-/* .slide {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: var(--slide-color);
-}
-
-.slide-in {
-  transform-origin: bottom;
-}
-
-.slide-out {
-  transform-origin: top;
-}
-
-.slide-in img {
-  width: 10%;
-  animation: opacityOut 0.2s;
-  -webkit-animation: opacityOut 0.2s;
-  opacity: 0;
-}
-
-.slide-out img {
-  width: 10%;
-} */
 
 .container {
   animation: transitionIn 1s;

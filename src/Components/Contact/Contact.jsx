@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarComponent from "../../Components/NavbarComponent";
+import NavbarComponent from "../NavbarComponent";
 import Container from "react-bootstrap/esm/Container";
 import { Link } from "react-router-dom";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
@@ -27,12 +27,7 @@ const Contact = () => {
     }
   };
   return (
-    <Container
-      className="d-grid"
-      style={{ height: "100vh", gridAutoRows: "10% 75% 15%" }}
-    >
-      <NavbarComponent />
-      <div className="d-flex align-items-center flex-column">
+      <div className="d-flex align-items-center flex-column" id="contact">
         <ToastContainer />
         <h1 className="mb-5">Contact Me</h1>
         <form className="d-flex flex-column w-75" onSubmit={sendEmail}>
@@ -60,17 +55,11 @@ const Contact = () => {
             id="Textarea2"
             style={{ height: "150px" }}
           ></textarea>
-          <button className="emailBtn align-self-center">
+          <button className="emailBtn align-self-center mb-4">
             Send Email
           </button>
         </form>
       </div>
-      <div className="work-footer d-flex position-relative justify-content-end align-items-center">
-        <Link to="/portfolio">
-          <ArrowCircleUpIcon style={{ fontSize: "2.5rem" }} />
-        </Link>
-      </div>
-    </Container>
   );
 };
 
